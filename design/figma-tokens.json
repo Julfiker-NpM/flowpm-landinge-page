@@ -1,0 +1,192 @@
+{
+  "$schema": "https://schemas.tokens.studio/v1/tokens.schema.json",
+  "global": {
+    "color": {
+      "bg": {
+        "$value": "#0d0d0d",
+        "$type": "color",
+        "$description": "Page background"
+      },
+      "bg-2": {
+        "$value": "#111111",
+        "$type": "color",
+        "$description": "Card / section background"
+      },
+      "bg-3": {
+        "$value": "#161616",
+        "$type": "color",
+        "$description": "Hover / elevated surface"
+      },
+      "text-primary": {
+        "$value": "#e8e4dc",
+        "$type": "color",
+        "$description": "Primary text"
+      },
+      "text-secondary": {
+        "$value": "rgba(232,228,220,0.55)",
+        "$type": "color",
+        "$description": "Secondary / muted text"
+      },
+      "text-tertiary": {
+        "$value": "rgba(232,228,220,0.30)",
+        "$type": "color",
+        "$description": "Hint / label text"
+      },
+      "accent": {
+        "$value": "#5DCAA5",
+        "$type": "color",
+        "$description": "Primary brand accent (teal)"
+      },
+      "accent-on": {
+        "$value": "#04342C",
+        "$type": "color",
+        "$description": "Text on accent background"
+      },
+      "accent-bg": {
+        "$value": "rgba(93,202,165,0.10)",
+        "$type": "color",
+        "$description": "Accent-tinted fill"
+      },
+      "accent-border": {
+        "$value": "rgba(93,202,165,0.22)",
+        "$type": "color",
+        "$description": "Accent-tinted border"
+      },
+      "border": {
+        "$value": "rgba(255,255,255,0.08)",
+        "$type": "color",
+        "$description": "Default border / divider"
+      },
+      "border-2": {
+        "$value": "rgba(255,255,255,0.14)",
+        "$type": "color",
+        "$description": "Hover / emphasized border"
+      },
+      "danger": {
+        "$value": "#E24B4A",
+        "$type": "color",
+        "$description": "Error / destructive state"
+      }
+    },
+    "typography": {
+      "fontFamily-serif": {
+        "$value": "DM Serif Display",
+        "$type": "fontFamily",
+        "$description": "Headlines — editorial serif"
+      },
+      "fontFamily-mono": {
+        "$value": "DM Mono",
+        "$type": "fontFamily",
+        "$description": "Labels, badges, data — monospaced"
+      },
+      "fontFamily-sans": {
+        "$value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "$type": "fontFamily",
+        "$description": "Body copy — system sans"
+      },
+      "size-xs": {
+        "$value": "11",
+        "$type": "fontSize",
+        "$description": "Labels, eyebrows, badges"
+      },
+      "size-sm": {
+        "$value": "12",
+        "$type": "fontSize",
+        "$description": "Secondary labels, helper text"
+      },
+      "size-base": {
+        "$value": "13",
+        "$type": "fontSize",
+        "$description": "Body text, list items"
+      },
+      "size-md": {
+        "$value": "15",
+        "$type": "fontSize",
+        "$description": "Sub-headings, descriptions"
+      },
+      "size-lg": {
+        "$value": "16",
+        "$type": "fontSize",
+        "$description": "Primary body"
+      },
+      "size-xl": {
+        "$value": "18",
+        "$type": "fontSize",
+        "$description": "Testimonial quotes"
+      },
+      "size-2xl": {
+        "$value": "34",
+        "$type": "fontSize",
+        "$description": "Plan prices"
+      },
+      "size-3xl": {
+        "$value": "38",
+        "$type": "fontSize",
+        "$description": "Stat numbers"
+      },
+      "size-4xl": {
+        "$value": "48",
+        "$type": "fontSize",
+        "$description": "Section headings"
+      },
+      "size-hero": {
+        "$value": "64",
+        "$type": "fontSize",
+        "$description": "Hero headline"
+      },
+      "weight-regular": {
+        "$value": "400",
+        "$type": "fontWeight"
+      },
+      "weight-medium": {
+        "$value": "500",
+        "$type": "fontWeight"
+      },
+      "leading-tight": {
+        "$value": "1.05",
+        "$type": "lineHeight",
+        "$description": "Large headings"
+      },
+      "leading-snug": {
+        "$value": "1.15",
+        "$type": "lineHeight",
+        "$description": "Section headings"
+      },
+      "leading-normal": {
+        "$value": "1.65",
+        "$type": "lineHeight",
+        "$description": "Body copy"
+      }
+    },
+    "spacing": {
+      "2": { "$value": "2", "$type": "spacing" },
+      "4": { "$value": "4", "$type": "spacing" },
+      "8": { "$value": "8", "$type": "spacing" },
+      "10": { "$value": "10", "$type": "spacing" },
+      "12": { "$value": "12", "$type": "spacing" },
+      "16": { "$value": "16", "$type": "spacing" },
+      "20": { "$value": "20", "$type": "spacing" },
+      "24": { "$value": "24", "$type": "spacing" },
+      "28": { "$value": "28", "$type": "spacing" },
+      "32": { "$value": "32", "$type": "spacing" },
+      "40": { "$value": "40", "$type": "spacing" },
+      "48": { "$value": "48", "$type": "spacing" },
+      "64": { "$value": "64", "$type": "spacing" },
+      "80": { "$value": "80", "$type": "spacing" },
+      "100": { "$value": "100", "$type": "spacing" }
+    },
+    "borderRadius": {
+      "sm": { "$value": "6", "$type": "borderRadius", "$description": "Buttons, small elements" },
+      "md": { "$value": "8", "$type": "borderRadius", "$description": "Inputs, tags" },
+      "lg": { "$value": "12", "$type": "borderRadius", "$description": "Cards, panels" },
+      "pill": { "$value": "999", "$type": "borderRadius", "$description": "Badges, avatars" }
+    },
+    "borderWidth": {
+      "default": { "$value": "0.5", "$type": "borderWidth" },
+      "accent": { "$value": "1", "$type": "borderWidth" }
+    },
+    "shadow": {
+      "none": { "$value": "none", "$type": "boxShadow" }
+    }
+  }
+}
